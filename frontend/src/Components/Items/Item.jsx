@@ -3,7 +3,7 @@ import './Item.css'
 
 const Item = (props) => {
     return(
-        <div className='Item'>
+        <div className='item'>
             <img src={props.image} alt=""/>
             <p>{props.name}</p>
 
