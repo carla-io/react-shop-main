@@ -3,6 +3,12 @@ const app = express()
 const connectDB = require("./config/connectDB")
 const dotenv = require("dotenv").config();
 
+const imageRoutes = require('./routes/imageRoutes');
+
+
+
+// Image upload route
+app.use('/api/images', imageRoutes);
 
 
 
